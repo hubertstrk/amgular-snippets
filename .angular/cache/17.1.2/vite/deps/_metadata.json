@@ -1,0 +1,70 @@
+{
+  "hash": "25f7c6ed",
+  "configHash": "cbd5521a",
+  "lockfileHash": "a05709ea",
+  "browserHash": "61a884b2",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "1f593999",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "a9c31188",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "be2c71a0",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "2d72d677",
+      "needsInterop": false
+    },
+    "primeng/button": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-button.mjs",
+      "file": "primeng_button.js",
+      "fileHash": "e6d01e29",
+      "needsInterop": false
+    },
+    "primeng/chips": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-chips.mjs",
+      "file": "primeng_chips.js",
+      "fileHash": "4d0f4bfe",
+      "needsInterop": false
+    },
+    "primeng/menubar": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-menubar.mjs",
+      "file": "primeng_menubar.js",
+      "fileHash": "4baf0867",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-DF6WIOIN": {
+      "file": "chunk-DF6WIOIN.js"
+    },
+    "chunk-LIX53DTU": {
+      "file": "chunk-LIX53DTU.js"
+    },
+    "chunk-3HJYDFC7": {
+      "file": "chunk-3HJYDFC7.js"
+    },
+    "chunk-BI6EZLPE": {
+      "file": "chunk-BI6EZLPE.js"
+    },
+    "chunk-BMMWUVRI": {
+      "file": "chunk-BMMWUVRI.js"
+    },
+    "chunk-J6I3HQA3": {
+      "file": "chunk-J6I3HQA3.js"
+    }
+  }
+}
