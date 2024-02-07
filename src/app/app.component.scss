@@ -19,8 +19,14 @@ footer,
 article,
 nav,
 div {
-  padding: 1em;
   background: var(--surface-card);
+}
+
+footer,
+article,
+nav,
+div {
+  padding: 1em;
 }
 
 .header {
@@ -37,6 +43,9 @@ div {
 
 .nav {
   grid-area: nav;
+  display: flex;
+  height: 100%;
+  overflow: auto;
 }
 
 .ads {
