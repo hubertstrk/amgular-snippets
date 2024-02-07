@@ -1,11 +1,11 @@
 import {
   PrimeNGConfig
-} from "./chunk-LIX53DTU.js";
+} from "./chunk-DII6VSZ7.js";
 import {
   CommonModule,
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-BMMWUVRI.js";
+} from "./chunk-I2HUGYRA.js";
 import {
   Directive,
   ElementRef,
@@ -827,4 +827,4 @@ export {
   Ripple,
   RippleModule
 };
-//# sourceMappingURL=chunk-DF6WIOIN.js.map
+//# sourceMappingURL=chunk-SQ2XGRH4.js.map

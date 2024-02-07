@@ -5,9 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 
-import { ButtonModule } from 'primeng/button'
-import { MenubarModule } from 'primeng/menubar'
-import { ChipsModule } from 'primeng/chips'
+import { NavigationModule } from './modules/navigation/navigation.module'
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,10 +13,9 @@ import { ChipsModule } from 'primeng/chips'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ButtonModule,
-    MenubarModule,
-    ChipsModule
+    NavigationModule
   ],
+  exports: [NavigationModule],
   providers: [],
   bootstrap: [AppComponent]
 })

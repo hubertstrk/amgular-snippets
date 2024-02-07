@@ -1,24 +1,26 @@
 import {
+  RouterLink,
+  RouterLinkActive,
+  RouterModule
+} from "./chunk-PXX2EPA2.js";
+import "./chunk-3XC6XMLE.js";
+import {
   ConnectedOverlayScrollHandler,
   DomHandler,
   Ripple,
   RippleModule
-} from "./chunk-DF6WIOIN.js";
+} from "./chunk-SQ2XGRH4.js";
 import {
-  BaseIcon,
+  BaseIcon
+} from "./chunk-OPDRGYVD.js";
+import {
   ObjectUtils,
   PrimeNGConfig,
   PrimeTemplate,
   SharedModule,
   UniqueComponentId,
   zindexutils
-} from "./chunk-LIX53DTU.js";
-import {
-  RouterLink,
-  RouterLinkActive,
-  RouterModule
-} from "./chunk-3HJYDFC7.js";
-import "./chunk-BI6EZLPE.js";
+} from "./chunk-DII6VSZ7.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -28,7 +30,7 @@ import {
   NgStyle,
   NgTemplateOutlet,
   isPlatformBrowser
-} from "./chunk-BMMWUVRI.js";
+} from "./chunk-I2HUGYRA.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,

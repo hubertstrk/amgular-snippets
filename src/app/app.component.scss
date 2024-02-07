@@ -1,11 +1,13 @@
+// https://www.quackit.com/css/grid/examples/css_grid_website_layout_examples.cfm
+
 .app {
   display: grid;
   grid-template-areas:
     'header header header'
     'nav article ads'
     'footer footer footer';
-  grid-template-rows: 80px 1fr 70px;
-  grid-template-columns: 20% 1fr 15%;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-columns: 20% 1fr 20%;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   height: 100vh;
@@ -17,24 +19,27 @@ footer,
 article,
 nav,
 div {
-  padding: 1.2em;
-  // background: gold;
+  padding: 1em;
   background: var(--surface-card);
 }
 
-#pageHeader {
+.header {
   grid-area: header;
 }
-#pageFooter {
+
+.footer {
   grid-area: footer;
 }
-#mainArticle {
+
+.article {
   grid-area: article;
 }
-#mainNav {
+
+.nav {
   grid-area: nav;
 }
-#siteAds {
+
+.ads {
   grid-area: ads;
 }
 

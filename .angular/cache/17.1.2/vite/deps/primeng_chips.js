@@ -1,9 +1,11 @@
 import {
-  BaseIcon,
+  BaseIcon
+} from "./chunk-OPDRGYVD.js";
+import {
   PrimeTemplate,
   SharedModule,
   UniqueComponentId
-} from "./chunk-LIX53DTU.js";
+} from "./chunk-DII6VSZ7.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -13,7 +15,7 @@ import {
   NgStyle,
   NgTemplateOutlet,
   getDOM
-} from "./chunk-BMMWUVRI.js";
+} from "./chunk-I2HUGYRA.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,

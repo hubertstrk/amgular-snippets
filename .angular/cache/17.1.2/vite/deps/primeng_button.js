@@ -2,14 +2,16 @@ import {
   DomHandler,
   Ripple,
   RippleModule
-} from "./chunk-DF6WIOIN.js";
+} from "./chunk-SQ2XGRH4.js";
 import {
-  BaseIcon,
+  BaseIcon
+} from "./chunk-OPDRGYVD.js";
+import {
   ObjectUtils,
   PrimeTemplate,
   SharedModule,
   UniqueComponentId
-} from "./chunk-LIX53DTU.js";
+} from "./chunk-DII6VSZ7.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -17,7 +19,7 @@ import {
   NgIf,
   NgStyle,
   NgTemplateOutlet
-} from "./chunk-BMMWUVRI.js";
+} from "./chunk-I2HUGYRA.js";
 import {
   ChangeDetectionStrategy,
   Component,
