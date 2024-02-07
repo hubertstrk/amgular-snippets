@@ -1,5 +1,5 @@
 <div class="flex flex-column my-2" *ngFor="let snippet of snippets">
-  <p-card>
+  <p-card class="cursor-pointer" (click)="navigateToSnippet(snippet)">
     <ng-template pTemplate="title">
       <div>{{snippet.title}}</div>
     </ng-template>

@@ -8,12 +8,14 @@ export class SnippetsService {
 
   snippets = [
     {
+      id: 1,
       title: '@Input',
       tags: ['input'],
       value: `@Input() foo: string`,
       description: 'input parameter for a component'
     },
     {
+      id: 2,
       title: '@Output',
       tags: ['output'],
       value: `@Output() bar: EventEmitter<string>`,
@@ -25,7 +27,11 @@ export class SnippetsService {
     return this.snippets
   }
 
-  find(key: string) {
-    return this.snippets.find((snippet) => snippet.tags.includes(key))
+  find(tag: string) {
+    return this.snippets.find((snippet) => snippet.tags.includes(tag))
+  }
+
+  byId(id: number) {
+    return this.snippets.find((snippet) => snippet.id === id) ?? null
   }
 }
