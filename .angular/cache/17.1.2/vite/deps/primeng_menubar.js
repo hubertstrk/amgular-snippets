@@ -2,17 +2,18 @@ import {
   RouterLink,
   RouterLinkActive,
   RouterModule
-} from "./chunk-7QLH32G4.js";
-import "./chunk-UDXB42YQ.js";
+} from "./chunk-K465IQVV.js";
+import "./chunk-MGMUIJHQ.js";
+import "./chunk-4OII7LLL.js";
 import {
   ConnectedOverlayScrollHandler,
   DomHandler,
   Ripple,
   RippleModule
-} from "./chunk-BMBIYTEQ.js";
+} from "./chunk-476OFNK7.js";
 import {
   BaseIcon
-} from "./chunk-ZXJQ5S4K.js";
+} from "./chunk-NSOLRH66.js";
 import {
   ObjectUtils,
   PrimeNGConfig,
@@ -20,7 +21,7 @@ import {
   SharedModule,
   UniqueComponentId,
   zindexutils
-} from "./chunk-NP7KWO36.js";
+} from "./chunk-IWNU3YC2.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -30,7 +31,7 @@ import {
   NgStyle,
   NgTemplateOutlet,
   isPlatformBrowser
-} from "./chunk-CX4IPHIE.js";
+} from "./chunk-HDJAYW3X.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -49,15 +50,11 @@ import {
   Output,
   PLATFORM_ID,
   Renderer2,
-  Subject,
   TemplateRef,
   ViewChild,
   ViewContainerRef,
   ViewEncapsulation$1,
-  debounce,
   effect,
-  filter,
-  interval,
   setClassMetadata,
   signal,
   ɵɵInheritDefinitionFeature,
@@ -106,7 +103,13 @@ import {
   ɵɵtextInterpolate,
   ɵɵtextInterpolate1,
   ɵɵviewQuery
-} from "./chunk-TIUV67AJ.js";
+} from "./chunk-EJVO7R5M.js";
+import {
+  Subject,
+  debounce,
+  filter,
+  interval
+} from "./chunk-WSA2QMXP.js";
 import {
   __spreadProps,
   __spreadValues

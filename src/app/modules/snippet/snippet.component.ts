@@ -1,6 +1,5 @@
 import { Component, OnDestroy } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
-import { Snippet } from '../../model'
 import { SnippetsService } from '../../snippets.service'
 import { Subscription } from 'rxjs'
 
@@ -9,7 +8,7 @@ import { Subscription } from 'rxjs'
   templateUrl: 'snippet.component.html'
 })
 export class SnippetComponent implements OnDestroy {
-  snippet: Snippet | null = null
+  markdown: string | null = null
   subscription: Subscription
 
   constructor(
@@ -17,7 +16,11 @@ export class SnippetComponent implements OnDestroy {
     private snippetService: SnippetsService
   ) {
     this.subscription = this.route.params.subscribe((params) => {
-      this.snippet = this.snippetService.byId(+params['id'])
+      void this.snippetService
+        .markdownById(params['id'] as string)
+        .then((markdown) => {
+          this.markdown = markdown
+        })
     })
   }
   ngOnDestroy(): void {

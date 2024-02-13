@@ -19,11 +19,13 @@ export class NavigationComponent implements OnInit {
   availableSnippets: Snippet[] = []
 
   ngOnInit() {
-    this.availableSnippets = this.snippetsService.all()
+    void this.snippetsService.all().then((snippets) => {
+      this.availableSnippets = snippets
+    })
   }
 
   navigateToSnippet(snippet: Snippet) {
-    void this.router.navigate(['/snippet', snippet.id])
+    void this.router.navigate(['/snippet', snippet.title])
   }
 
   get filteredSnippets() {

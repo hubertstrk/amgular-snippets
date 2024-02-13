@@ -1,21 +1,9 @@
 <div class="w-full">
   <input type="text" pInputText [(ngModel)]="search" placeholder="search..." />
-  <div class="flex flex-column my-2" *ngFor="let snippet of filteredSnippets">
-    <p-card class="cursor-pointer w-full" (click)="navigateToSnippet(snippet)">
-      <ng-template pTemplate="title">
-        <div>{{snippet.title}}</div>
-      </ng-template>
-      <div>
-        <div class="m-1">{{ snippet.description }}</div>
-        <div class="flex gap-1">
-          <ng-container *ngFor="let tag of snippet.tags">
-            <p-tag>{{ tag }}</p-tag>
-          </ng-container>
-        </div>
-      </div>
-      <ng-template pTemplate="footer">
-        <p-button icon="pi pi-at" styleClass="p-button-secondary"></p-button>
-      </ng-template>
-    </p-card>
+  <div
+    (click)="navigateToSnippet(snippet)"
+    class="flex flex-column my-1 cursor-pointer w-full"
+    *ngFor="let snippet of filteredSnippets">
+    <div class="hover:text-primary">{{snippet.title}}</div>
   </div>
 </div>
