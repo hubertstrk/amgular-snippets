@@ -1,6 +1,6 @@
 const input = {
   title: 'input',
-  tags: ['input, getter, setter, get, set'],
+  tags: ['input', 'getter', 'setter', 'get', 'set'],
   snippet: 'input'
 }
 

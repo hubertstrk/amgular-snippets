@@ -2,16 +2,16 @@ import {
   DomHandler,
   Ripple,
   RippleModule
-} from "./chunk-476OFNK7.js";
+} from "./chunk-HLRPE5CV.js";
 import {
   BaseIcon
-} from "./chunk-NSOLRH66.js";
+} from "./chunk-FVFSVQDI.js";
 import {
   ObjectUtils,
   PrimeTemplate,
   SharedModule,
   UniqueComponentId
-} from "./chunk-IWNU3YC2.js";
+} from "./chunk-HZRULDY6.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -19,7 +19,7 @@ import {
   NgIf,
   NgStyle,
   NgTemplateOutlet
-} from "./chunk-HDJAYW3X.js";
+} from "./chunk-JPN5AOHM.js";
 import {
   ChangeDetectionStrategy,
   Component,
@@ -63,9 +63,9 @@ import {
   ɵɵtemplate,
   ɵɵtext,
   ɵɵtextInterpolate
-} from "./chunk-EJVO7R5M.js";
+} from "./chunk-2JNEIYKB.js";
 import "./chunk-WSA2QMXP.js";
-import "./chunk-J4B6MK7R.js";
+import "./chunk-WKYGNSYM.js";
 
 // node_modules/primeng/fesm2022/primeng-icons-spinner.mjs
 var SpinnerIcon = class _SpinnerIcon extends BaseIcon {

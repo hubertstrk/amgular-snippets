@@ -9,6 +9,7 @@ import { Subscription } from 'rxjs'
 })
 export class SnippetComponent implements OnDestroy {
   markdown: string | null = null
+  tags: string[] = []
   subscription: Subscription
 
   constructor(
@@ -17,9 +18,10 @@ export class SnippetComponent implements OnDestroy {
   ) {
     this.subscription = this.route.params.subscribe((params) => {
       void this.snippetService
-        .markdownById(params['id'] as string)
-        .then((markdown) => {
+        .snippetById(params['id'] as string)
+        .then(({ markdown, tags }) => {
           this.markdown = markdown
+          this.tags = tags
         })
     })
   }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, Input, OnInit } from '@angular/core'
 import { SnippetsService } from '../../snippets.service'
 import { Snippet } from '../../model'
 import { Router } from '@angular/router'
@@ -15,7 +15,8 @@ export class NavigationComponent implements OnInit {
     private router: Router
   ) {}
 
-  search = ''
+  @Input() search: string = ''
+
   availableSnippets: Snippet[] = []
 
   ngOnInit() {
