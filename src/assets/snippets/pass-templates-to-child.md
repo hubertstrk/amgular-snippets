@@ -1,4 +1,4 @@
-# Pass templates to child
+# Templates
 
 ## parent
 

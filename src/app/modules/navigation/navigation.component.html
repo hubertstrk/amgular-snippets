@@ -1,8 +1,8 @@
 <div class="w-full">
   <div
     (click)="navigateToSnippet(snippet)"
-    class="flex flex-column my-1 cursor-pointer w-full"
+    class="flex flex-column my-2 cursor-pointer w-full"
     *ngFor="let snippet of filteredSnippets">
-    <div class="hover:text-primary">{{snippet.title}}</div>
+    <div class="text-lg hover:text-primary">{{snippet.title}}</div>
   </div>
 </div>

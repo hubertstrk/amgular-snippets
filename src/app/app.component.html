@@ -1,6 +1,7 @@
 <div class="app">
   <header class="header flex align-items-center">
-    <div class="text-primary">angular snippets</div>
+    <span class="pi pi-code" style="font-size: 1.5rem"></span>
+    <div class="text-2xl">angular snippets</div>
   </header>
   <article class="article">
     <router-outlet></router-outlet>
@@ -8,5 +9,5 @@
   <nav class="nav">
     <app-navigation [search]="search"></app-navigation>
   </nav>
-  <footer class="footer">Footer</footer>
+  <footer class="footer">{{snippets.length}} snippets</footer>
 </div>

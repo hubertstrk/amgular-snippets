@@ -11,13 +11,30 @@ import passTemplatesToChild from '../assets/file/pass-template-to-child'
 import service from '../assets/file/service'
 import component from '../assets/file/component'
 
+import primeIcon from '../assets/file/prime-icon'
+import primeButton from '../assets/file/prime-button'
+import primeOverlay from '../assets/file/prime-overlay'
+
+import primeflexFontSize from '../assets/file/primeflex-font-size'
+
 @Injectable({
   providedIn: 'root'
 })
 export class SnippetsService {
   constructor(private http: HttpClient) {}
 
-  files = [input, output, viewChild, service, component, passTemplatesToChild]
+  files = [
+    input,
+    output,
+    viewChild,
+    service,
+    component,
+    passTemplatesToChild,
+    primeIcon,
+    primeButton,
+    primeOverlay,
+    primeflexFontSize
+  ]
 
   async all() {
     const files = this.files.map((file) => {
