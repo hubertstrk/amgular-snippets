@@ -10,6 +10,10 @@ import viewChild from '../assets/file/view-child'
 import passTemplatesToChild from '../assets/file/pass-template-to-child'
 import service from '../assets/file/service'
 import component from '../assets/file/component'
+import directive from '../assets/file/directive'
+import styleBinding from '../assets/file/style-binding'
+import classBinding from '../assets/file/class-binding'
+import devTools from '../assets/file/dev-tools'
 
 import primeIcon from '../assets/file/prime-icon'
 import primeButton from '../assets/file/prime-button'
@@ -29,6 +33,10 @@ export class SnippetsService {
     viewChild,
     service,
     component,
+    directive,
+    styleBinding,
+    classBinding,
+    devTools,
     passTemplatesToChild,
     primeIcon,
     primeButton,
