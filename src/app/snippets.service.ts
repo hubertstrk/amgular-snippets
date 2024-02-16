@@ -20,6 +20,8 @@ import primeButton from '../assets/file/prime-button'
 import primeOverlay from '../assets/file/prime-overlay'
 
 import primeflexFontSize from '../assets/file/primeflex-font-size'
+import primeflexResponsive from '../assets/file/primeflex-responsive'
+import primeflexGrid from '../assets/file/primeflex-grid'
 
 @Injectable({
   providedIn: 'root'
@@ -41,7 +43,9 @@ export class SnippetsService {
     primeIcon,
     primeButton,
     primeOverlay,
-    primeflexFontSize
+    primeflexFontSize,
+    primeflexResponsive,
+    primeflexGrid
   ]
 
   async all() {
