@@ -13,6 +13,9 @@ import component from '../assets/file/component'
 import directive from '../assets/file/directive'
 import styleBinding from '../assets/file/style-binding'
 import classBinding from '../assets/file/class-binding'
+import angularFor from '../assets/file/for'
+import pipes from '../assets/file/pipes'
+import angularSwitch from '../assets/file/switch'
 import devTools from '../assets/file/dev-tools'
 
 import primeIcon from '../assets/file/prime-icon'
@@ -38,6 +41,9 @@ export class SnippetsService {
     directive,
     styleBinding,
     classBinding,
+    angularFor,
+    pipes,
+    angularSwitch,
     devTools,
     passTemplatesToChild,
     primeIcon,
