@@ -1,13 +1,20 @@
 <div class="w-full">
-  <input
-    type="text"
-    class="p-inputtext-sm w-full"
-    pInputText
-    [(ngModel)]="search" />
-  <div
-    (click)="navigateToSnippet(snippet)"
-    class="flex flex-column my-2 cursor-pointer w-full"
-    *ngFor="let snippet of filteredSnippets">
-    <div class="text-lg hover:text-primary">{{snippet.title}}</div>
+  <span class="p-input-icon-left w-full">
+    <i class="pi pi-search"></i>
+    <input
+      id="username"
+      type="text"
+      class="p-inputtext-sm"
+      pInputText
+      [(ngModel)]="search" />
+  </span>
+  <div class="mt-4">
+    <div
+      [@enterAnimation]
+      (click)="navigateToSnippet(snippet)"
+      class="flex flex-column cursor-pointer hover:text-primary"
+      *ngFor="let snippet of filteredSnippets">
+      {{snippet.title}}
+    </div>
   </div>
 </div>

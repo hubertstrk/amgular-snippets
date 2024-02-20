@@ -1,11 +1,4 @@
 import {
-  RouterLink,
-  RouterLinkActive,
-  RouterModule
-} from "./chunk-5C3SIO22.js";
-import "./chunk-IPSF5LFE.js";
-import "./chunk-5LOGXLIO.js";
-import {
   ConnectedOverlayScrollHandler,
   DomHandler,
   Ripple,
@@ -22,6 +15,13 @@ import {
   UniqueComponentId,
   zindexutils
 } from "./chunk-HZRULDY6.js";
+import {
+  RouterLink,
+  RouterLinkActive,
+  RouterModule
+} from "./chunk-5C3SIO22.js";
+import "./chunk-IPSF5LFE.js";
+import "./chunk-5LOGXLIO.js";
 import {
   CommonModule,
   DOCUMENT,
