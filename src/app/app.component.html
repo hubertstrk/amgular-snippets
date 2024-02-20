@@ -1,13 +1,16 @@
 <div class="app">
-  <header class="header flex align-items-center">
+  <!-- <header class="header flex align-items-center">
     <span class="pi pi-code" style="font-size: 1.5rem"></span>
     <div class="text-2xl">Angular Snippets</div>
-  </header>
+  </header> -->
   <article class="article">
     <router-outlet></router-outlet>
   </article>
-  <nav class="nav w-full">
+  <nav class="nav flex flex-column w-full">
     <app-navigation class="w-full" [search]="search"></app-navigation>
   </nav>
-  <footer class="footer">{{snippets.length}} snippets</footer>
+  <footer class="footer flex align-items-center gap-2 justify-content-between">
+    <span>{{snippets.length}} snippets</span>
+    <span class="pi pi-code" style="font-size: 1.5rem"></span>
+  </footer>
 </div>
