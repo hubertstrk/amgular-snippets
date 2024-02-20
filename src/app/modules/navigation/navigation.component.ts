@@ -32,7 +32,9 @@ export class NavigationComponent implements OnInit {
   get filteredSnippets() {
     const fuse = new Fuse(this.availableSnippets, {
       includeScore: false,
-      keys: ['tags', 'title']
+      keys: ['tags'],
+      shouldSort: true,
+      threshold: 0.4
     })
 
     return this.search && this.search.length > 0
