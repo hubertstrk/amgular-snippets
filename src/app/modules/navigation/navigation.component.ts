@@ -5,14 +5,6 @@ import { Router } from '@angular/router'
 import Fuse from 'fuse.js'
 import { sortBy } from 'lodash'
 
-import {
-  trigger,
-  transition,
-  style,
-  animate,
-  keyframes
-} from '@angular/animations'
-
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
