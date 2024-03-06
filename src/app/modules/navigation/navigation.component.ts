@@ -16,59 +16,7 @@ import {
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
-  styleUrls: ['./navigation.component.scss'],
-  animations: [
-    trigger('enterAnimation', [
-      transition(':leave', [
-        animate(
-          '300ms',
-          keyframes([
-            style({ fontSize: '*' }),
-            style({ fontSize: '15px' }),
-            style({ fontSize: '14px' }),
-            style({ fontSize: '13px' }),
-            style({ fontSize: '12px' }),
-            style({ fontSize: '11px' }),
-            style({ fontSize: '10px' }),
-            style({ fontSize: '9px' }),
-            style({ fontSize: '8px' }),
-            style({ fontSize: '7px' }),
-            style({ fontSize: '6px' }),
-            style({ fontSize: '5px' }),
-            style({ fontSize: '4px' }),
-            style({ fontSize: '3px' }),
-            style({ fontSize: '2px' }),
-            style({ fontSize: '1px' }),
-            style({ fontSize: '0px' })
-          ])
-        )
-      ]),
-      transition(':enter', [
-        animate(
-          '300ms',
-          keyframes([
-            style({ fontSize: '0px' }),
-            style({ fontSize: '1px' }),
-            style({ fontSize: '2px' }),
-            style({ fontSize: '3px' }),
-            style({ fontSize: '4px' }),
-            style({ fontSize: '5px' }),
-            style({ fontSize: '6px' }),
-            style({ fontSize: '7px' }),
-            style({ fontSize: '8px' }),
-            style({ fontSize: '9px' }),
-            style({ fontSize: '10px' }),
-            style({ fontSize: '11px' }),
-            style({ fontSize: '12px' }),
-            style({ fontSize: '13px' }),
-            style({ fontSize: '14px' }),
-            style({ fontSize: '15px' }),
-            style({ fontSize: '*' })
-          ])
-        )
-      ])
-    ])
-  ]
+  styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
   constructor(

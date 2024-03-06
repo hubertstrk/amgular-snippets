@@ -2,9 +2,6 @@ import {
   InputTextModule
 } from "./chunk-4GTAE3SH.js";
 import {
-  NG_VALUE_ACCESSOR
-} from "./chunk-BM3MEPRF.js";
-import {
   BaseIcon
 } from "./chunk-FVFSVQDI.js";
 import {
@@ -12,6 +9,9 @@ import {
   SharedModule,
   UniqueComponentId
 } from "./chunk-HZRULDY6.js";
+import {
+  NG_VALUE_ACCESSOR
+} from "./chunk-BM3MEPRF.js";
 import {
   CommonModule,
   DOCUMENT,
