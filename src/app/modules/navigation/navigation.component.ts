@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core'
-import { SnippetsService } from '../../snippets.service'
-import { Snippet } from '../../model'
 import { Router } from '@angular/router'
 import Fuse from 'fuse.js'
 import { sortBy } from 'lodash'
+import { Snippet } from '../../model'
+import { SnippetsService } from '../../snippets.service'
 
 @Component({
   selector: 'app-navigation',
@@ -33,7 +33,7 @@ export class NavigationComponent implements OnInit {
   get filteredSnippets() {
     const fuse = new Fuse(this.availableSnippets, {
       includeScore: false,
-      keys: ['tags'],
+      keys: ['tags', 'markdown', 'title'],
       shouldSort: true,
       threshold: 0.4
     })

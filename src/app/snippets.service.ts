@@ -1,30 +1,32 @@
 import { HttpClient } from '@angular/common/http'
 import { Injectable } from '@angular/core'
+import { sortBy } from 'lodash'
 import { firstValueFrom } from 'rxjs'
 import { Snippet } from './model'
-import { sortBy } from 'lodash'
 
+import classBinding from '../assets/file/class-binding'
+import component from '../assets/file/component'
+import devTools from '../assets/file/dev-tools'
+import directive from '../assets/file/directive'
+import angularFor from '../assets/file/for'
+import angularIf from '../assets/file/if'
 import input from '../assets/file/input'
 import output from '../assets/file/output'
-import viewChild from '../assets/file/view-child'
 import passTemplatesToChild from '../assets/file/pass-template-to-child'
-import service from '../assets/file/service'
-import component from '../assets/file/component'
-import directive from '../assets/file/directive'
-import styleBinding from '../assets/file/style-binding'
-import classBinding from '../assets/file/class-binding'
-import angularFor from '../assets/file/for'
 import pipes from '../assets/file/pipes'
+import service from '../assets/file/service'
+import styleBinding from '../assets/file/style-binding'
 import angularSwitch from '../assets/file/switch'
-import devTools from '../assets/file/dev-tools'
+import viewChild from '../assets/file/view-child'
 
-import primeIcon from '../assets/file/prime-icon'
 import primeButton from '../assets/file/prime-button'
+import primeIcon from '../assets/file/prime-icon'
 import primeOverlay from '../assets/file/prime-overlay'
 
 import primeflexFontSize from '../assets/file/primeflex-font-size'
-import primeflexResponsive from '../assets/file/primeflex-responsive'
 import primeflexGrid from '../assets/file/primeflex-grid'
+import primeflexPointer from '../assets/file/primeflex-pointer'
+import primeflexResponsive from '../assets/file/primeflex-responsive'
 
 @Injectable({
   providedIn: 'root'
@@ -51,7 +53,9 @@ export class SnippetsService {
     primeOverlay,
     primeflexFontSize,
     primeflexResponsive,
-    primeflexGrid
+    primeflexGrid,
+    primeflexPointer,
+    angularIf
   ]
 
   async all() {
@@ -74,9 +78,7 @@ export class SnippetsService {
     })
 
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-    const foo = sortBy(snippets, ['title']) as Snippet[]
-
-    return foo
+    return sortBy(snippets, ['title']) as Snippet[]
   }
 
   async snippetById(id: string) {
